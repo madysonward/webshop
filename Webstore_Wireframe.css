@@ -2,7 +2,7 @@ header {
 	border-bottom: 3px solid #000;
 }
 
-img {
+.imgLogo {
 	width: 12.5em;
 	height: 8.35em;
 	margin: 3px 15px 1px 10px;
@@ -33,27 +33,48 @@ header span {
 
 
 
-section {
+.mainSec {
 	border-style: double;
+	border-color: black;
 	text-align: center;
 }
 .mainBody {
 	margin-right: 35px;
-	padding-left: 35em;
+	padding-left: 25em;
+}
+.eSoMe {
+	font-family: "Jazz LET", fantasy;
+	font-style: italic;
+	font-size: 30px;
+	text-align: center;
+//	padding-right: 35px;
+}
+.eSoMe3 {
+	font-family: "New Century Schoolbook", serif;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 23px;
 }
 
-./*out-div {
-	padding: 30px;
-	text-align: left;
+.imgSec1 {
+float: left;
+padding-right: 1em;
 }
-.in-div p{
-	display: inline-block;
-	float: left;
-	padding: 50px*/
+
+.mainBodyP {
+
 }
+
+/*.mainBodySec {
+/*	margin: 0px 1em 0px 30px;
+margin: 0px 0px 35px 30px; 
+padding:  18em; 
+margin-bottom: 500px; 
+}*/
+
 /*header > img {
 	display: inline-block;*/
-}
+
 header p {
 	margin-left: 100px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
