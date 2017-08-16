@@ -1,0 +1,60 @@
+header { 
+	border-bottom: 3px solid #000;
+}
+
+img {
+	width: 12.5em;
+	height: 8.35em;
+	margin: 3px 15px 1px 10px;
+}
+header > h1 { 
+	display: inline-block; 
+	margin: 2px 11px -5px 25px;
+	font-family: "Jazz LET", fantasy;
+	font-style: italic;
+	font-size: 85px;
+}
+header span { 
+//	margin-left: 50px;
+	margin: 85px 10px 10px 70px;
+	font-family: "New Century Schoolbook", serif;
+	font-size: 23px;
+	font-style: italic;
+}
+.searchForm {
+	margin-top: -35px; 
+}
+.search {
+//	width: 50%;
+	margin: 0px 5px 15px 76em;
+//	float: top;
+}
+.
+
+
+
+section {
+	border-style: double;
+	text-align: center;
+}
+.mainBody {
+	margin-right: 35px;
+	padding-left: 35em;
+}
+
+./*out-div {
+	padding: 30px;
+	text-align: left;
+}
+.in-div p{
+	display: inline-block;
+	float: left;
+	padding: 50px*/
+}
+/*header > img {
+	display: inline-block;*/
+}
+header p {
+	margin-left: 100px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
