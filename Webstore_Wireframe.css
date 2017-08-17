@@ -55,27 +55,38 @@ header span {
 	text-align: center;
 	padding-bottom: 23px;
 }
-
 .imgSec1 {
 float: left;
 padding-right: 1em;
 }
-
 .mainBodyP {
 
 }
 
-/*.mainBodySec {
-/*	margin: 0px 1em 0px 30px;
-margin: 0px 0px 35px 30px; 
-padding:  18em; 
-margin-bottom: 500px; 
-}*/
+.latterBody {
+	margin-right: 35px;
+	padding-left: 25em; 
+}
+.latterBodySec {
+	padding-top: 6em;
+}
+.latterBody1 {
+	float: left;
+	padding-right: 1em;
+}
 
-/*header > img {
-	display: inline-block;*/
 
-header p {
+
+
+/*header p {
 	margin-left: 100px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
-}
+}*/
+
+
+
+
+
+
+
+
