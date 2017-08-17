@@ -1,11 +1,13 @@
 header { 
-	border-bottom: 3px solid #000;
+	border-bottom: 4px double #444444;
 }
 
 .imgLogo {
 	width: 12.5em;
 	height: 8.35em;
-	margin: 3px 15px 1px 10px;
+	margin: 0px 15px 3px 10px;
+	border-style: solid;
+	border-color: #444444;
 }
 header > h1 { 
 	display: inline-block; 
@@ -76,9 +78,34 @@ padding-right: 1em;
 }
 
 .commCatDiv1 {
-	padding-top: 35px;
+	padding-top: 14em;
+}
+.commCatHead {
+	margin-left: 4em;
+	font-family: "New Century Schoolbook", serif;
+	font-style: italic;
+	padding-right: 16em;
+}
+.commCatDiv2 {
+	border-style: double;
+	border-color: #444444;
+}
+.commCatDiv3 {
+	padding: 4px 5px 4px 5px;
+}
+.commCatIMG1h4 {
+	padding-left: 89px;
 }
 
+.commCatDivIMG2 {
+	padding-left: 55px;
+}
+.commCatIMG2 {
+	padding-top: 13px;
+}
+.commCatIMG2h4 {
+	padding-left: 1em;
+}
 
 /*header p {
 	margin-left: 100px;
