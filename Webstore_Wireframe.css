@@ -104,9 +104,17 @@ padding-right: 1em;
 	padding-top: 13px;
 }
 .commCatIMG2h4 {
-	padding-left: 1em;
+	padding-left: 18px;
 }
-
+.commCatDivIMG3 {
+//	float: top;
+	padding-left: 30em;
+}
+commCatIMG3 {
+	float: left;
+	padding-bottom: 70em;
+	position: relative;
+}
 /*header p {
 	margin-left: 100px;
 	font-family: "Comic Sans MS", cursive, sans-serif;
