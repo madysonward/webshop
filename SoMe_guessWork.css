@@ -31,7 +31,6 @@ header span {
 	margin: 0px 5px 15px 76em;
 //	float: top;
 }
-.
 
 
 
@@ -81,24 +80,33 @@ padding-right: 1em;
 	padding-top: 14em;
 }
 .commCatHead {
-	margin-left: 4em;
+	text-align: center;
 	font-family: "New Century Schoolbook", serif;
 	font-style: italic;
-	padding-right: 16em;
+	padding-top: 7px;
+	border-top-style: double;
+	border-color: #444444;
 }
 .commCatDiv2 {
-	border-style: double;
+	border-top-style: solid;
 	border-color: #444444;
+	padding-left: 5em; 
 }
 .commCatDiv3 {
 	padding: 4px 5px 4px 5px;
 }
-.commCatIMG1h4 {
-	padding-left: 89px;
+.commCatDiv4 {
+	padding: 4px 5px 4px 23px;
 }
+/* commCatIMG3 {
+	padding-bottom: 7em;
+}
+.commCatRow1 {
 
-.commCatDivIMG2 {
-	padding-left: 55px;
+}*/
+
+/*.commCatIMG1h4 {
+	padding-left: 89px;
 }
 .commCatIMG2 {
 	padding-top: 13px;
@@ -106,13 +114,5 @@ padding-right: 1em;
 .commCatIMG2h4 {
 	padding-left: 18px;
 }
-.commCatDivIMG3 {
-//	float: top;
-	padding-left: 30em;
-}
-commCatIMG3 {
-	float: left;
-	padding-bottom: 70em;
-	position: relative;
-}
 
+*/
