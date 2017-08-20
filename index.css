@@ -32,7 +32,24 @@ header span {
 //	float: top;
 }
 
-
+.navUL {
+	list-style-type: none;
+	margin: 0;
+	padding-bottom: 11px;
+	overflow: hidden;
+}
+.navULitem {
+	float: left;
+}
+.homePage {
+	display: block;
+	color: #444444;
+	padding: 5px 18px;
+//	text-decoration: none;
+	font-family: "New Century Schoolbook", serif;
+	text-align: center;
+	font-size: 15px;
+}
 
 .mainSec {
 	border-style: double;
@@ -91,6 +108,11 @@ padding-right: 1em;
 	border-top-style: solid;
 	border-color: #444444;
 	padding-left: 5em; 
+}
+.imgLink {
+	color: #444444;
+	font-family: "New Century Schoolbook", serif;
+
 }
 .commCatDiv3 {
 	padding: 4px 5px 4px 5px;
