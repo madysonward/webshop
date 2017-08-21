@@ -27,13 +27,11 @@ header span {
 	margin-top: -35px; 
 }
 .search {
+//	width: 50%;
 	margin: 0px 5px 15px 76em;
+//	float: top;
 }
 
-/*.navBar {
-	border-bottom-style: double;
-	border-bottom-color: #444444;
-}*/
 .navUL {
 	list-style-type: none;
 	margin: 0;
