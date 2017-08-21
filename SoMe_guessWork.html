@@ -2,27 +2,35 @@
 <html>
 	<head>
 		<title>So Me | Shop Your Aesthetic</title>
-		<link rel="stylesheet" type="text/css" href="./SoMe_guessWork.css">
+		<link rel="stylesheet" type="text/css" href="./index.css">
 	</head>
 	<body>
 
 		<img src="./IMG/Logo-coffee.jpeg" height="7%" width="7%" style="align-content: left; float: left;" class="imgLogo">
+
 		<br>
 
-			<header>
-				<h1>So Me</h1>
-				<span>The Only Retail Company Made by You, For You</span>
-				<form class="searchForm">
-					<div class="search">
+		<header>
+			<h1>So Me</h1>
+			<span>The Only Retail Company Made by You, For You</span>
+			<form class="searchForm">
+				<div class="search">
 					<input type="text" name="What do you need in your life?" class="searchBar">
 					<input type="submit" name="Search!" class="searchSubmit">
-					</div>
-				</form>
-			</header>
+				</div>
+			</form>
+		</header>
 		<br>
 		<nav>
-			<!-- Create and add nav bar/links! -->
+			<ul class="navUL">
+				<li class="navULitem"><a class="homePage" href="./index.html">Home</a></li>
+				<li class="navULitem"><a class="homePage" href="about">About Me</a></li>
+				<li class="navULitem"><a class="homePage" href="#shop">Shop</a></li>
+				<li class="navULitem"><a class="homePage" href="#contact">Contact</a></li>
+			</ul>
 		</nav>
+		<!-- Need to add sidebar. Figure out if it belongs in before section (mainSec) or within.
+		Create separate webpage to add a blog. Link blog and preview of posts to sidebar -->
 		<section class="mainSec">
 			<section class="mainBody">
 				<h2 class="eSoMe">e-So Me</h2>
@@ -50,20 +58,19 @@
 										<td>
 											<img src="./IMG/indie-chic.jpeg" height="54%" class="commCatIMG1">
 											<!-- Make the below a link! -->
-											<h4 class="commCatIMG1h4">~Indie Chic~</h4>
+											<a class="imgLink"href="#indie"><h4 class="commCatIMG1h4">~Indie Chic~</h4></a>
 										</td>
-										<!-- Make the below and all even number images it's own div with a border to separate. Make images links. Maybe try to create separate html & css files and go back and try putting all imgs & headers in two divs...one for each row -->
 										<td>
 											<img src="./IMG/romantic.jpg" height="5%" class="commCatIMG2">
-											<h4 class="commCatIMG2h4">Romantic Tones</h4>
+											<a class="imgLink" href="#romance"><h4 class="commCatIMG2h4">Romantic Tones</h4></a>
 										</td>
 										<td>
 											<img src="./IMG/outdoorsy.jpeg" height="55%" class="commCatIMG3">
-											<h4 class="commCatIMG3h4">Adventurous</h4>
+											<a class="imgLink" href="#adventure"><h4 class="commCatIMG3h4">Adventurous</h4></a>
 										</td>
 										<td>
 											<img src="./IMG/girlPrep.jpg" height="6.79%" class="commCatIMG4">
-											<h4 class="commCatIMG4h4">Girl Prep</h4>
+											<a class="imgLink" href="#gPrep"><h4 class="commCatIMG4h4">Girl Prep</h4></a>
 										</td>
 									</tr>
 								</tbody>
@@ -75,19 +82,19 @@
 									<tr>
 										<td>
 											<img src="./IMG/hipster.jpeg" height="53%" class="commCatIMG5">
-											<h4 class="commCatIMG5h4">HiP$TER</h4>
+											<a class="imgLink" href="#hip"><h4 class="commCatIMG5h4">HiP$TER</h4></a>
 										</td>
 										<td>
 											<img src="./IMG/bizMen.jpg" height="5.62%" class="commCatIMG6">
-											<h4 class="commCatIMG6h4">Classic Mind, Classic Man</h4>
+											<a class="imgLink" href="#classMen"><h4 class="commCatIMG6h4">Classic Mind, Classic Man</h4></a>
 										</td>
 										<td>
 											<img src="./IMG/casualComfy.jpg" height="8.25%" class="commCatIMG7">
-											<h4 class="commCatIMG7h4">Cool && Comfy</h4>
+											<a class="imgLink" href="#comfort"><h4 class="commCatIMG7h4">Cool & Comfy</h4></a>
 										</td>
 										<td>
 											<img src="./IMG/skater.jpg" height="5.53%" class="commCatIMG8">
-											<h4 class="commCatIMG8h4">-Skater Boy-</h4>
+											<a class="imgLink" href="#skate"><h4 class="commCatIMG8h4">-Skater Boy-</h4></a>
 										</td>
 									</tr>
 								</tbody>
@@ -101,9 +108,3 @@
 
 	</body>
 </html>
-
-<!-- <td>
-		<img src="./IMG/elegant.jpg" width="23%"class="commCatIMG2">
-		<h4 class="commCatIMG2h4">Oh so elegant...</h4>
-	</td>
-										 -->
