@@ -58,26 +58,25 @@ header span {
 	border-color: black;
 	text-align: center;
 }
-.mainBody {
+/*.mainBody {
 	margin-right: 35px;
 	padding-left: 25em;
-}
+}*/
 .eSoMe {
 	font-family: "Jazz LET", fantasy;
 	font-style: italic;
 	font-size: 30px;
 	text-align: center;
-//	padding-right: 35px;
 }
 .eSoMe3 {
 	font-family: "New Century Schoolbook", serif;
 	font-style: italic;
 	text-align: center;
-	padding-bottom: 23px;
+//	padding-bottom: 23px;
 }
 .imgSec1 {
 float: left;
-padding-right: 1em;
+//padding-right: 1em;
 }
 .mainBodyP {
 
@@ -85,14 +84,14 @@ padding-right: 1em;
 
 .latterBody {
 	margin-right: 35px;
-	padding-left: 25em; 
+//	padding-left: 25em; 
 }
 .latterBodySec {
-	padding-top: 6em;
+//	padding-top: 6em;
 }
 .latterBody1 {
-	float: left;
-	padding-right: 1em;
+//	float: left;
+//	padding-right: 1em;
 }
 
 .commCatDiv1 {
