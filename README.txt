@@ -1,0 +1,1 @@
+My first project at Eleven Fifty Academy was to create a static webpage for a faux online store. So Me, which specializes in key and trendy pieces from all sorts of clothing styles was my result!
